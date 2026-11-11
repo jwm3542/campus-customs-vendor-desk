@@ -1,0 +1,13 @@
+# Secrets: never commit the real key file
+.env
+.env.*
+!.env.example
+
+# Local environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Original download (its contents are already unzipped in data/)
+data.zip

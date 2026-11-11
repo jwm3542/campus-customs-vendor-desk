@@ -1,0 +1,7 @@
+# HW 6 vendor desk agent
+# pydantic-ai-slim[openai] (not the full pydantic-ai) per course rules; Portkey speaks the OpenAI API.
+pydantic-ai-slim[openai]>=2.66   # needs the GPT prompt-cache settings used in agent.py
+python-dotenv>=1.0.1
+pypdf>=5.0.0      # read PDF vendor quotes (and inspect their drawing commands)
+httpx2>=2.16      # comes with openai; imported directly to log Portkey's cache status
+tiktoken>=0.8.0   # Problem 2 token estimate (scripts/estimate_handbook.py)
